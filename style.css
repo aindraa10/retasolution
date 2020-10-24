@@ -1,0 +1,104 @@
+.space{
+    border-style: none;
+    border-width: 10px;
+    width: 0%;
+    margin: 80px auto;
+}
+.tb{
+    margin: 10%;
+
+}
+.intro{
+    margin: 0 15%;
+    font-size: 50px;
+}
+h2{
+    color: cyan;
+}
+.tb .banner{
+    margin: 0 1%;
+}
+.header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 15%;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-right: 5%;
+    
+}
+.header .navi{
+    padding-top: 30px;
+}
+.header .header-ul{
+    margin: 15%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin: 0 10%;
+    padding-top: 30px;
+}
+.header-li{
+    margin: 0 10px;
+}
+.dft-btn{
+    border-radius: 50px;
+    text-align: center;
+}
+.tb-client{
+    margin: 0 10%;
+    text-align: left;
+}
+
+.footer {
+    padding: 3%;
+    background-color: grey;
+    width: auto;
+    margin-left: 0;
+    left: 0;
+}
+.ul{
+    list-style: none;
+    margin: auto;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color:blue;
+  }
+  .footer-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.footer-ul .footer-li{
+    text-align: right;
+    margin: 0 10px;
+    padding-top: 20px;
+}
+.icon-footer{
+    color: red;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    flex-direction: row;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
